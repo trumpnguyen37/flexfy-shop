@@ -1,0 +1,14 @@
+.seller {
+  padding: 50px;
+}
+
+.seller .box-sale {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  background: var(--color-primary);
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
