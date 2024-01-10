@@ -5,6 +5,8 @@ import Home from "../../components/MainPage/Home";
 import BestSellerDeals from "../../components/bestsellers/BestSellerDeals";
 import SaleOff from "../../components/saleoff/SaleOff";
 import TopCategories from "../../components/topcategories/TopCategories";
+import NewArrival from "../../components/newarrival/NewArrival";
+import OurCrew from "../../components/ourcrew/OurCrew";
 
 export default function Pages() {
   return (
@@ -14,6 +16,8 @@ export default function Pages() {
       <BestSellerDeals />
       <SaleOff />
       <TopCategories />
+      <NewArrival />
+      <OurCrew />
     </>
   );
 }

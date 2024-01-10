@@ -25,8 +25,7 @@ const SamplePrevArrow = (props) => {
     </div>
   );
 };
-
-export default function TopCategoriesCard() {
+export default function OurCrewCard() {
   const settings = {
     dots: false,
     infinite: true,
@@ -46,21 +45,23 @@ export default function TopCategoriesCard() {
                 <div className="img">
                   <img src={productItems.cover} alt="" />
                   {/* <div className="product-like">
-              <label>{count}</label> <br />
-              <i className="fa-regular fa-heart" onClick={increment}></i>
-            </div> */}
+          <label>{count}</label> <br />
+          <i className="fa-regular fa-heart" onClick={increment}></i>
+        </div> */}
                 </div>
-
                 <div className="product-details">
-                  <div className="box-sale">
-                    <a href="#">{productItems.type}</a>
+                  <div className="rate">
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
                   </div>
-                  {/* step : 3  
-           
-                */}
-                  {/* <button onClick={() => addToCart(productItems)}>
-                <i className="fa fa-plus"></i>
-              </button> */}
+                  <h3>{productItems.product}</h3>
+                  <span className="name">{productItems.name}</span>
+                  <div className="sale">
+                    <a href="/">SHOP STYLE</a>
+                  </div>
                 </div>
               </div>
             </div>

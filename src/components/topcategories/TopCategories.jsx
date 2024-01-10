@@ -9,10 +9,7 @@ export default function TopCategories() {
         <div className="con">
           <div className="heading f_flex">
             <i className="fa-solid fa-border-all"></i>
-            <h1>Up to 30% Off</h1>
-            <div className="box-sale">
-              <a href="/">shop Bras</a>
-            </div>
+            <h1>15% Off Top Categories</h1>
           </div>
           <TopCategoriesCard />
         </div>
