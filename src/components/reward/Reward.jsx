@@ -1,35 +1,38 @@
 import React from "react";
 import "./style.css";
 
-export default function NewArrival() {
+export default function Reward() {
   const mystyle = {
     width: "50%",
-    height: "600px",
+    height: "410px",
   };
   return (
     <>
-      <section className="annocument">
+      <section className="reward">
         <div className="con d_flex">
           <div className="img" style={mystyle}>
             <img
-              src="./images/newarrivals/jisoon1.png"
+              src="./images/newarrivals/background.png"
               width="100%"
               height="100%"
             />
           </div>
           <div className="img" style={mystyle}>
             <img
-              src="./images/newarrivals/jisoon2.png"
+              src="./images/newarrivals/justinbieber.png"
               width="100%"
               height="100%"
             />
           </div>
         </div>
-        <div className="box-sale1">
-          <a href="/">New arrival</a>
-        </div>
-        <div className="box-sale2">
-          <a href="/">Beanie</a>
+        <div className="content-reward">
+          <h1>Promotion for Member </h1>
+          <p>
+            Sign up now get <b>&#8369;50</b> coupon
+          </p>
+          <div className="box-sale3">
+            <a href="/">join rewards</a>
+          </div>
         </div>
       </section>
     </>

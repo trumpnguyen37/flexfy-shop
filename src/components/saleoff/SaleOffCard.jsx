@@ -65,7 +65,7 @@ export default function SaleOffCard() {
                   <div className="price">
                     <h4>&#36;{productItems.price}</h4>
                     {/* step : 3  
-                 if hami le button ma click garryo bahne 
+          
                 */}
                     {/* <button onClick={() => addToCart(productItems)}>
                 <i className="fa fa-plus"></i>

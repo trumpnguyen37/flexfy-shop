@@ -7,6 +7,9 @@ import SaleOff from "../../components/saleoff/SaleOff";
 import TopCategories from "../../components/topcategories/TopCategories";
 import NewArrival from "../../components/newarrival/NewArrival";
 import OurCrew from "../../components/ourcrew/OurCrew";
+import Reward from "../../components/reward/Reward";
+import Community from "../../components/community/Community";
+import Footer from "../../common/footer/footer";
 
 export default function Pages() {
   return (
@@ -18,6 +21,9 @@ export default function Pages() {
       <TopCategories />
       <NewArrival />
       <OurCrew />
+      <Reward />
+      <Community />
+      <Footer />
     </>
   );
 }
