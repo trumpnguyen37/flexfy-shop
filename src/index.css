@@ -189,7 +189,7 @@ button {
 }
 
 .color-circle.active {
-  border: 2px solid var(--color-secondary);
+  border: 2px solid var(--color-primary);
 }
 /*---------product-----------*/
 .box {
@@ -330,3 +330,26 @@ button {
   grid-gap: 10px;
 }
 /* ---Products--- */
+
+/* Test */
+
+.grid__column-2 {
+  margin-top: -20px;
+  padding-left: 30px;
+  width: 30%;
+}
+
+.grid__column-2-4 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 20%;
+}
+
+.grid__column-10 {
+  margin-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 70%;
+}

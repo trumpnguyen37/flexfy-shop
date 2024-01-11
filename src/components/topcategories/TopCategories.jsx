@@ -8,7 +8,7 @@ export default function TopCategories() {
       <section className="seller">
         <div className="con">
           <div className="heading f_flex">
-            <i className="fa-solid fa-border-all"></i>
+            {/* <i className="fa-solid fa-border-all"></i> */}
             <h1>15% Off Top Categories</h1>
           </div>
           <TopCategoriesCard />

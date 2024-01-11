@@ -30,7 +30,7 @@ const Sdata = [
     price: "46",
   },
   {
-    cover: "./images/bestsellers/bestseller5.png",
+    cover: "./images/bestsellers/bestseller6.png",
     review: "37",
     name: "Product - 2 Meta",
     price: "46",

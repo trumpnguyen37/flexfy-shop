@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Sdata from "./Sdata";
+import Tdata from "./Tdata";
 
 const SampleNextArrow = (props) => {
   const { onClick } = props;
@@ -39,7 +39,7 @@ export default function TopCategoriesCard() {
   return (
     <>
       <Slider {...settings}>
-        {Sdata.map((productItems) => {
+        {Tdata.map((productItems) => {
           return (
             <div className="box">
               <div className="product mtop">

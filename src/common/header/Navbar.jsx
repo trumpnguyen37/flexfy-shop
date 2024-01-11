@@ -15,7 +15,7 @@ export default function Navbar() {
               onClick={() => setMobileMenu(false)}
             >
               <li>
-                <Link to="/">SUMMER VIBE COLLECTION 2023</Link>
+                <Link to="">SUMMER VIBE COLLECTION 2023</Link>
               </li>
               <li>
                 <Link to="/">NEW</Link>

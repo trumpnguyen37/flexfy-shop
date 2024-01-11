@@ -50,6 +50,7 @@ export default function Search() {
               <div className="cart">
                 <Link to="/cart">
                   <i className="fa fa-shopping-bag icon-circle"></i>
+                  <span></span>
                 </Link>
               </div>
             </div>

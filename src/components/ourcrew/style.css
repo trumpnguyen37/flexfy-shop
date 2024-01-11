@@ -1,0 +1,21 @@
+.ourcrew {
+  padding: 50px;
+}
+
+.ourcrew .product .product-details {
+  text-align: center;
+}
+
+.product-details {
+  margin-top: 10px;
+}
+.product-details .name {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.product-details .sale {
+  text-decoration: underline;
+  font-weight: 600;
+  margin-top: 20px;
+}

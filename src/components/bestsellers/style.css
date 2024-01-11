@@ -1,5 +1,6 @@
 .seller {
   padding: 50px;
+  position: relative;
 }
 
 .box-sale {
@@ -11,4 +12,53 @@
   margin-left: 20px;
   text-align: center;
   border-radius: 10px;
+}
+/* .product .img {
+  width: 100%;
+}
+
+.product .img img {
+  object-fit: contain;
+} */
+
+.product .img:hover {
+  transform: scale(1.2);
+}
+
+.gradient-banner1 {
+  position: absolute;
+  bottom: 200px;
+  left: 60px;
+  display: flex;
+  background: var(--color-secondary);
+  background: linear-gradient(
+    to right,
+    var(--color-primary),
+    var(--color-secondary) 65%,
+    var(--color-secondary)
+  );
+  width: 342px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 400;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-banner2 {
+  position: absolute;
+  bottom: 200px;
+  left: 420px;
+  display: flex;
+  background: var(--color-primary);
+  width: 342px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 400;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

@@ -59,6 +59,18 @@
   transform: translateY(-40%);
 }
 
+.search .cart span {
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #e94560;
+  font-size: 12px;
+  color: #fff;
+}
 /* ---Head--- */
 
 /* ---Search --- */
@@ -132,6 +144,11 @@ header ul li a {
   transition: 0.5s;
   font-size: 15px;
   font-weight: 600;
+  padding: 10px 4px;
+}
+
+header ul li:nth-child(2) a {
+  box-shadow: 0 3px var(--color-primary);
 }
 
 header ul li:first-child {
@@ -144,9 +161,10 @@ header ul li:first-child {
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
-header ul li a:hover {
+
+header ul li:not(:first-child) a:hover {
   color: var(--color-primary);
-  border-bottom: 3px solid var(--color-primary);
+  box-shadow: 0 3px var(--color-primary);
 }
 
 .container .navlink {

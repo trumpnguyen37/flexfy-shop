@@ -73,7 +73,7 @@ export default function SaleOffCard() {
                   </div>
                   <div
                     class="color-circle active"
-                    style={{ backgroundColor: "brown" }}
+                    style={{ backgroundColor: "pink" }}
                   ></div>
                   <div
                     class="color-circle"

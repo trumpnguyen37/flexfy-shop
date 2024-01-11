@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Sdata from "./Sdata";
+import Odata from "./Odata";
 
 const SampleNextArrow = (props) => {
   const { onClick } = props;
@@ -38,7 +38,7 @@ export default function OurCrewCard() {
   return (
     <>
       <Slider {...settings}>
-        {Sdata.map((productItems) => {
+        {Odata.map((productItems) => {
           return (
             <div className="box">
               <div className="product mtop">
@@ -57,7 +57,7 @@ export default function OurCrewCard() {
                     <i className="fa fa-star"></i>
                     <i className="fa fa-star"></i>
                   </div>
-                  <h3>{productItems.product}</h3>
+                  <p>{productItems.product}</p>
                   <span className="name">{productItems.name}</span>
                   <div className="sale">
                     <a href="/">SHOP STYLE</a>
