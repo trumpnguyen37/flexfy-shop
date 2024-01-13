@@ -8,7 +8,7 @@ const Sdata = [
   {
     cover: "./images/saleoffs/saleoff2.png",
     review: "7",
-    name: "Product - 2 Meta",
+    name: "Product - 4 Meta",
     price: "55",
   },
   {

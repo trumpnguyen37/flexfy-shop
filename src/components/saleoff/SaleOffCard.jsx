@@ -63,7 +63,7 @@ export default function SaleOffCard() {
                   <span className="review">{productItems.review} REVIEWS</span>
                   <h3>{productItems.name}</h3>
                   <div className="price">
-                    <h4>&#36;{productItems.price}</h4>
+                    <h4>&#8369;{productItems.price}</h4>
                     {/* step : 3  
           
                 */}
